@@ -1,15 +1,15 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/spf13/hugoThemes#themetoml for an example
 
-name = "HUCORE"
+name = "tuxedoneko"
 license = "MIT"
-licenselink = "https://github.com/mgjohansen/hucore/blob/master/LICENSE.md"
+licenselink = "https://github.com/tuxedocat/tuxedoneko/blob/master/LICENSE.md"
 description = "Minimal blog theme for hugo based on Hemingway2"
-homepage = "https://github.com/mgjohansen/hucore"
+homepage = "https://github.com/tuxedocat/tuxedoneko"
 tags = ["blog", "font awesome", "highlight.js"]
 features = ["html5", "css3", "tags"]
 min_version = 0.16
 
 [author]
-  name = "Morten G. Johansen"
-  homepage = "https://github.com/mgjohansen"
+  name = "tuxedocat"
+  homepage = "https://github.com/tuxedocat"
