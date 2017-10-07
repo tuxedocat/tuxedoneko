@@ -9,6 +9,8 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:description" content="{{ .Site.Params.Description }}">
 <meta property="og:type" content="website" />
+<!-- For hugo community... -->
+{{ .Hugo.Generator }}
 <title>{{ .Title }}{{ if eq .IsHome false }} | {{ .Site.Title }}{{ end }}</title>
 <!-- enable inline math equations-->
 <script type="text/x-mathjax-config">
