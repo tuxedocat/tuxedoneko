@@ -41,6 +41,7 @@ description = "Your description here"
 keywords = ["keyword 1", "keyword 2", "keyword 3"]
 author = "tuxedocat"
 sharingicons = true
+enableMathJax = false
 
 [params.highlight]
 style = "github"
