@@ -46,35 +46,50 @@ sharingicons = true
 style = "github"
 languages = ["scala", "sh", "python", "r", "go", "dockerfile"]
 
+# Navbar on upper-right area, decorated with Fontawesome icons.
 [[params.social]]
-url = "https://github.com/tuxedocat"
-fa_icon = "fa-github"
+name = "Me on Github"                   # -> title
+url = "https://github.com/tuxedocat"    # -> href
+fa_icon = "fa-github"                   # -> Fontawesome icon name
 
 [[params.social]]
 url = "https://gitlab.com/tuxedocat"
 fa_icon = "fa-gitlab"
 
 [[params.social]]
-url = "https://twitter.com/tuxedocat"
-fa_icon = "fa-twitter"
-
-[[params.social]]
-url = "https://linkedin.com/in/tuxedocat"
-fa_icon = "fa-linkedin-square"
-
-[[params.social]]
 url = "/index.xml"
 fa_icon = "fa-rss"
 
 [[params.socialshare]]
-url = "https://linkedin.com/in/tuxedocat"
+url = "https://linkedin.com/in/_your_name_"
 fa_icon = "fa-linkedin-square"
 ```
 
 ## Build
 
+### CSS
+Build CSS from Sass using gulp:
+
+```bash
+$ yarn add gulp
+$ yarn add gulp-sass
+
+# Default: just build css from sass file.
+$ yarn gulp
+
+# Or run build for each modification.
+$ yarn gulp watch
 ```
-hugo server
+
+### Hugo
+```bash
+$ hugo server
+
+# Or set theme variable explicitly
+$ hugo server -t tuxedoneko
+
+# Or set theme directory explicitly, if this theme is in somewhere/tuxedoneko
+$ hugo server --themeDir somewhere/
 ```
 
 You can go to localhost:1313 and this theme should be visible.
