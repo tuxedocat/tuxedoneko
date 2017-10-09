@@ -1,5 +1,5 @@
 <div class="tags">
     {{ range . }}
-        <a class="button is-link" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+        <a class="button is-light is-small" href="{{ "/tags/" | relURL }}{{ . | urlize }}"><i class="fa fa-hashtag"></i>{{ . }}</a>
     {{ end }}
 </div>
