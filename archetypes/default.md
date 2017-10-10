@@ -1,7 +1,12 @@
 +++
-description = ""
-categories = ["category"]
-tags = ["tag1", "tag2"]
-draft = true
+date = "{{ .Date }}"
+title = ""
 author = ""
+description = ""
+categories = ["", ""]
+tags = ["", ""]
+draft = true
 +++
+
+
+<!--more-->
