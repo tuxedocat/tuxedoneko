@@ -8,8 +8,8 @@
         <nav class="nav-item level is-mobile">
           {{ range .Site.Params.social }}
           <a class="level-item" href="{{ .url }}" title="{{ .name }}">
-            <span class="icon">
-              <i class="{{ .fa_icon }}"></i>
+            <span class="icon is-small">
+              <ion-icon name="{{ .iconName }}" size="small"></ion-icon>
             </span>
           </a>
           {{ end }}

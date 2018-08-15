@@ -23,24 +23,24 @@ languages = ["go", "dockerfile", "python", "scala", "sh"]
 
 [[params.social]]
 url = "https://github.com/tuxedocat"
-fa_icon = "fa-github"
+iconName = "fa-github"
 
 [[params.social]]
 url = "https://gitlab.com/tuxedocat"
-fa_icon = "fa-gitlab"
+iconName = "fa-gitlab"
 
 [[params.social]]
 url = "https://twitter.com/tuxedocat"
-fa_icon = "fa-twitter"
+iconName = "fa-twitter"
 
 [[params.social]]
 url = "https://linkedin.com/in/tuxedocat"
-fa_icon = "fa-linkedin-square"
+iconName = "fa-linkedin-square"
 
 [[params.social]]
 url = "/index.xml"
-fa_icon = "fa-rss"
+iconName = "fa-rss"
 
 [[params.socialshare]]
 url = "https://linkedin.com/in/tuxedocat"
-fa_icon = "fa-linkedin-square"
+iconName = "fa-linkedin-square"

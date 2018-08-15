@@ -51,19 +51,19 @@ languages = ["scala", "sh", "python", "r", "go", "dockerfile"]
 [[params.social]]
 name = "Me on Github"                   # -> title
 url = "https://github.com/tuxedocat"    # -> href
-fa_icon = "fa-github"                   # -> Fontawesome icon name
+iconName = "logo-octocat"                   # -> icon name
 
 [[params.social]]
 url = "https://gitlab.com/tuxedocat"
-fa_icon = "fa-gitlab"
+iconName = "logo"
 
 [[params.social]]
 url = "/index.xml"
-fa_icon = "fa-rss"
+iconName = "rss_feed"
 
 [[params.socialshare]]
 url = "https://linkedin.com/in/_your_name_"
-fa_icon = "fa-linkedin-square"
+iconName = "logo-linkedin"
 ```
 
 ## Build

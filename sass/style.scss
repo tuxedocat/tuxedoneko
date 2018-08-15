@@ -1,11 +1,20 @@
-@import "node_modules/bulma/sass/utilities/initial-variables";
-$blue: #2077b2;
-$primary: $blue;
-$grey-dark: hsl(0, 0%, 29%);
-$grey: hsl(0, 0%, 48%);
-$family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", "メイリオ", Meiryo, sans-serif;
+$primary: hsl(0, 0%, 48%);
+$family-sans-serif: BlinkMacSystemFont,
+-apple-system,
+"Segoe UI",
+"Roboto",
+"Oxygen",
+"Ubuntu",
+"Cantarell",
+"Fira Sans",
+"Droid Sans",
+"Helvetica Neue",
+"Helvetica",
+"Arial",
+"メイリオ",
+Meiryo,
+sans-serif;
 @import "node_modules/bulma/bulma";
-
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -19,10 +28,9 @@ $family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Ox
 }
 
 .media-content {
-  .subtitle + .title {
+  .subtitle+.title {
     margin-bottom: 10px;
   }
-
   .content {
     line-height: 1.5;
   }
@@ -42,6 +50,7 @@ html {
 
 .nav .level-item {
   margin-left: 10px;
+  color: #69707a;
 }
 
 nav .level {
@@ -53,6 +62,11 @@ nav .level {
   padding-left: 0;
 }
 
+nav .nav-right .nav-item {
+  margin-left: auto;
+  margin-right: 0;
+}
+
 .subtitle {
   color: #69707a;
 }
@@ -62,11 +76,9 @@ nav .level {
   font-size: 24px;
   font-weight: 400;
   color: $grey-dark;
-
   a {
     color: $grey-dark;
   }
-
   &.notfound {
     font-size: 20vw;
   }
@@ -78,7 +90,7 @@ code {
   font-size: 90%;
 }
 
-article + article {
+article+article {
   margin-top: 80px;
 }
 
@@ -91,77 +103,60 @@ article + article {
   h6 {
     line-height: 1.25;
     color: $grey-dark;
-
     &:not(:first-child) {
       margin-top: 80px;
     }
-
     &::before {
       color: #aeb1b5;
       font-weight: bold;
     }
-
     code {
       background-color: #f8f8f8;
     }
   }
-
-  h1 + h2:not(:first-child),
-  h2 + h3:not(:first-child),
-  h3 + h4:not(:first-child),
-  h4 + h5:not(:first-child),
-  h5 + h6:not(:first-child) {
+  h1+h2:not(:first-child),
+  h2+h3:not(:first-child),
+  h3+h4:not(:first-child),
+  h4+h5:not(:first-child),
+  h5+h6:not(:first-child) {
     margin-top: 20px;
   }
-
   h1 {
     font-size: 24px;
-
     &::before {
       content: "# ";
     }
   }
-
   h2 {
     font-size: 22px;
-
     &::before {
       content: "## ";
     }
   }
-
   h3 {
     font-size: 20px;
-
     &::before {
       content: "### ";
     }
   }
-
   h4 {
     font-size: 18px;
-
     &::before {
       content: "#### ";
     }
   }
-
   h5 {
     font-size: 17px;
-
     &::before {
       content: "##### ";
     }
   }
-
   h6 {
     font-size: 16px;
-
     &::before {
       content: "###### ";
     }
   }
-
   ol,
   p,
   pre,
@@ -171,7 +166,6 @@ article + article {
       margin-bottom: 1.5em;
     }
   }
-
   table {
     td,
     th {
@@ -180,10 +174,8 @@ article + article {
       vertical-align: top;
     }
   }
-
-  & > code,
-  p > code {
-    // font-size: 90%;
+  &>code,
+  p>code {
     padding: 2px 4px;
     margin: 0 2px;
     border: 1px solid #ddd;
@@ -191,15 +183,11 @@ article + article {
     background-color: #f8f8f8;
     color: #42464c;
   }
-
   pre {
     code {
-      // font-size: 90%;
-      padding: 1em;
-      line-height: 1.5;
+      line-height: 1.2;
     }
   }
-
   li {
     pre,
     table {
